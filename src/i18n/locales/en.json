@@ -1,0 +1,87 @@
+{
+  "common": {
+    "english": "English",
+    "italian": "Italian",
+    "language": "Language",
+    "goTo": "Go to",
+    "goBack": "Go Back",
+    "themeAppearance": "Appearance",
+    "themeLight": "Light",
+    "themeDark": "Dark",
+    "themeSystem": "System"
+  },
+  "HomeScreen": {
+    "title": "Home",
+    "description": "This is a boilerplate React Native application with navigation and i18n support."
+  },
+  "DetailsScreen": {
+    "title": "Profile Details",
+    "details": "Details Screen",
+    "description": "This is the details page of your application.",
+    "goBack": "Go Back",
+    "loading": "Loading profile...",
+    "error": "Error",
+    "noToken": "No access token available",
+    "fetchError": "Failed to fetch profile data",
+    "noData": "No profile data available",
+    "id": "ID",
+    "name": "Name",
+    "email": "Email",
+    "role": "Role",
+    "password": "Password"
+  },
+  "IntroScreen": {
+    "welcome": "Welcome!",
+    "description": "Choose how you want to continue with the app",
+    "continueAsGuest": "Continue as Guest",
+    "login": "Login"
+  },
+  "LoginScreen": {
+    "title": "Login",
+    "subtitle": "Enter your details to continue",
+    "emailPlaceholder": "Email",
+    "passwordPlaceholder": "Password",
+    "loginButton": "Login",
+    "loading": "Loading...",
+    "back": "Back",
+    "error": "Error",
+    "fillAllFields": "Please fill in all fields",
+    "loginFailed": "Login failed. Please try again."
+  },
+  "PublicHomeScreen": {
+    "title": "Public Home",
+    "description": "You are browsing as a guest. Login to access more features.",
+    "backToIntro": "Back to Intro"
+  },
+  "PrivateHomeScreen": {
+    "welcome": "Welcome back!",
+    "title": "Private Home",
+    "description": "You have full access to all features",
+    "goToDetails": "Go to Details"
+  },
+  "ProfileScreen": {
+    "title": "Profile",
+    "accessToken": "Access Token",
+    "refreshToken": "Refresh Token",
+    "logout": "Logout"
+  },
+  "SettingsScreen": {
+    "title": "Settings",
+    "description": "Configure your app settings here"
+  },
+  "TabNavigator": {
+    "tabBarLabels": {
+      "privateHome": "Private Home",
+      "profile": "Profile",
+      "settings": "Settings"
+    },
+    "privateHome": "Private Home",
+    "profile": "Profile",
+    "settings": "Settings"
+  },
+  "AppNavigator": {
+    "mainTabs": "Home",
+    "publicHome": "Public Home",
+    "details": "Details"
+  }
+}

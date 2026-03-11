@@ -1,22 +1,48 @@
 {
   "name": "demo",
   "version": "1.0.0",
-  "main": "index.ts",
+  "main": "expo-router/entry",
   "scripts": {
     "start": "expo start",
-    "android": "expo start --android",
-    "ios": "expo start --ios",
-    "web": "expo start --web"
+    "android": "expo run:android",
+    "ios": "expo run:ios",
+    "web": "expo start --web",
+    "assets:splash": "npx react-native-bootsplash generate assets/splashscreen.svg --platforms=android,ios --background=1A1A2E --logo-width=128 --assets-output=assets/bootsplash",
+    "assets:icons": "npx @forward-software/react-native-toolbox icons assets/icon.svg",
+    "env:dev": "node scripts/set-environment.js development",
+    "env:stage": "node scripts/set-environment.js staging",
+    "env:prod": "node scripts/set-environment.js production"
   },
   "dependencies": {
+    "@forward-software/react-auth": "^2.0.3",
+    "axios": "^1.13.6",
     "expo": "~55.0.6",
+    "expo-constants": "~55.0.7",
+    "expo-linking": "~55.0.7",
+    "expo-router": "~55.0.5",
     "expo-status-bar": "~55.0.4",
+    "expo-system-ui": "^55.0.9",
+    "i18next": "^25.8.18",
+    "jwt-check-expiry": "^1.0.10",
     "react": "19.2.0",
-    "react-native": "0.83.2"
+    "react-dom": "19.2.0",
+    "react-i18next": "^16.5.8",
+    "react-native": "0.83.2",
+    "react-native-bootsplash": "^7.1.0",
+    "react-native-localize": "^3.7.0",
+    "react-native-mmkv": "^4.2.0",
+    "react-native-nitro-modules": "^0.35.0",
+    "react-native-safe-area-context": "~5.6.2",
+    "react-native-screens": "~4.23.0"
   },
   "devDependencies": {
+    "@expo/config-plugins": "^55.0.6",
+    "@forward-software/react-native-toolbox": "^4.1.12",
     "@types/react": "~19.2.2",
+    "babel-plugin-module-resolver": "^5.0.2",
+    "babel-preset-expo": "^55.0.11",
     "typescript": "~5.9.2"
   },
-  "private": true
+  "private": true,
+  "license": "MPL-2.0"
 }

@@ -1,0 +1,87 @@
+{
+  "common": {
+    "english": "Inglese",
+    "italian": "Italiano",
+    "language": "Lingua",
+    "goTo": "Vai a",
+    "goBack": "Indietro",
+    "themeAppearance": "Aspetto",
+    "themeLight": "Chiaro",
+    "themeDark": "Scuro",
+    "themeSystem": "Sistema"
+  },
+  "HomeScreen": {
+    "title": "Home",
+    "description": "Questo è un boilerplate React Native con navigazione e supporto i18n."
+  },
+  "DetailsScreen": {
+    "title": "Profilo",
+    "details": "Dettaglio",
+    "description": "Questa è la pagina dei dettagli della tua applicazione.",
+    "goBack": "Indietro",
+    "loading": "Caricamento profilo...",
+    "error": "Errore",
+    "noToken": "Token di accesso non disponibile",
+    "fetchError": "Impossibile recuperare i dati del profilo",
+    "noData": "Nessun dato del profilo disponibile",
+    "id": "ID",
+    "name": "Nome",
+    "email": "Email",
+    "role": "Ruolo",
+    "password": "Password"
+  },
+  "IntroScreen": {
+    "welcome": "Benvenuto!",
+    "description": "Scegli come vuoi continuare con l'app",
+    "continueAsGuest": "Continua come Ospite",
+    "login": "Accedi"
+  },
+  "LoginScreen": {
+    "title": "Accedi",
+    "subtitle": "Inserisci i tuoi dati per continuare",
+    "emailPlaceholder": "Email",
+    "passwordPlaceholder": "Password",
+    "loginButton": "Accedi",
+    "loading": "Caricamento...",
+    "back": "Indietro",
+    "error": "Errore",
+    "fillAllFields": "Compila tutti i campi",
+    "loginFailed": "Accesso fallito. Riprova."
+  },
+  "PublicHomeScreen": {
+    "title": "Home Pubblica",
+    "description": "Stai navigando come ospite. Accedi per accedere a più funzionalità.",
+    "backToIntro": "Torna all'Intro"
+  },
+  "PrivateHomeScreen": {
+    "welcome": "Bentornato!",
+    "title": "Home Privata",
+    "description": "Hai accesso completo a tutte le funzionalità",
+    "goToDetails": "Vai a Details"
+  },
+  "ProfileScreen": {
+    "title": "Profilo",
+    "accessToken": "Token di Accesso",
+    "refreshToken": "Token di Refresh",
+    "logout": "Esci"
+  },
+  "SettingsScreen": {
+    "title": "Impostazioni",
+    "description": "Configura le impostazioni dell'app qui"
+  },
+  "TabNavigator": {
+    "tabBarLabels": {
+      "privateHome": "Private Home",
+      "profile": "Profile",
+      "settings": "Settings"
+    },
+    "privateHome": "Private Home",
+    "profile": "Profile",
+    "settings": "Settings"
+  },
+  "AppNavigator": {
+    "mainTabs": "Home",
+    "publicHome": "Public Home",
+    "details": "Details"
+  }
+}

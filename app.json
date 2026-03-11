@@ -12,19 +12,33 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.chopsueyorg.demo"
     },
     "android": {
       "adaptiveIcon": {
-        "backgroundColor": "#E6F4FE",
-        "foregroundImage": "./assets/android-icon-foreground.png",
-        "backgroundImage": "./assets/android-icon-background.png",
-        "monochromeImage": "./assets/android-icon-monochrome.png"
+        "foregroundImage": "./assets/icon.png",
+        "backgroundColor": "#1A1A2E"
       },
-      "predictiveBackGestureEnabled": false
+      "predictiveBackGestureEnabled": false,
+      "package": "com.chopsueyorg.demo"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": [
+      "expo-router",
+      "react-native-localize",
+      [
+        "react-native-bootsplash",
+        {
+          "logo": "./assets/splashscreen.svg",
+          "logoWidth": 128,
+          "background": "#1A1A2E",
+          "assetsOutput": "assets/bootsplash"
+        }
+      ]
+    ],
+    "scheme": "demo"
   }
 }
